@@ -8,6 +8,8 @@
     
 }
 
+/*header*/
+
 .header {
     max-width: 1150px;
     
@@ -32,10 +34,11 @@
     font-weight: 500;
     line-height: 29px;
 }
+
+/*main*/
 .main {
-    display: flex;
+    
     align-items: center;
-    max-width: 1150px;
     height: 400px;
     margin: 0 auto;
     background-color: #fff;
@@ -43,9 +46,14 @@
 }
 
 
-.main__text-content {
-    padding-left: 150px;
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+    margin: 0 auto;
 }
+
 
 .main__photo-content{
     padding-left: 200px;
@@ -86,3 +94,97 @@
 }
 
 
+
+.posts {
+    background-color: #EDF7FA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    
+}
+
+.posts__wrapper{
+    padding-left: 105px;
+    padding-right: 105px;
+    
+}
+.post__content{
+    margin-left: 105px;
+    margin-top: 30px;
+    display: flex;
+       
+}
+
+.recent {
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.link > a {
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: rgba(0, 168, 204, 1);
+
+
+}
+
+.poasts__header {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.post__description{
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.post__wrapper{
+    width:  420px;
+    height: 295px;
+    background-color: #fff;
+}
+
+.post__inner{
+    margin: 30px 30px;
+}
+
+.post{
+    padding-bottom: 30px;
+   
+}
+
+.post:not(:first-child){ 
+    margin-left: 80px;
+}
+.post__inner-text {
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
