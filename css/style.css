@@ -4,18 +4,15 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Heebo', sans-serif;
-
-    
 }
 
 body {
     background-color: burlywood;
 }
-/*header*/
 
+/*header*/
 .header {
     max-width: 1150px;
-    
     margin: 0 auto;
     background-color: #fff;
 }
@@ -55,11 +52,6 @@ body {
     padding-top: 120px ;
 }
 
-
-.main__photo-content{
-   /* padding-left: 200px;*/
-}
-
 .main__text-content_head {
     font-style: normal;
     font-weight: bold;
@@ -95,29 +87,24 @@ body {
 }
 
 /*posts*/
-
 .posts {
     background-color: #EDF7FA;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .container{
     max-width: 930px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 .posts__wrapper{
-    /* padding-left: 105px;
-    padding-right: 105px; */
     padding-top: 15px;
 } 
+
 .post__content{
-    /*margin-left: 105px;
-    margin-top: 30px;*/
     display: flex;
     justify-content: space-between;
-       
 }
 
 .recent {
@@ -128,7 +115,6 @@ body {
     line-height: 60px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 
 .link > a {
@@ -140,26 +126,20 @@ body {
     letter-spacing: 0px;
     text-align: right;
     color: rgba(0, 168, 204, 1);
-
-
 }
 
 .poasts__header {
-    
     display: flex;
     justify-content: space-between;
-    
 }
 
 .post__description{
-    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 
 .post__wrapper{
@@ -177,9 +157,6 @@ body {
    
 }
 
-/* .post:not(:first-child){ 
-    margin-left: 80px;
-} */
 .post__inner-text {
     font-family: Heebo;
     font-size: 26px;
@@ -190,6 +167,7 @@ body {
     text-align: left;
 
 }
+
 /*featured*/
 .featured__wrapper {
     padding: 25px 0 50px 0;
@@ -221,7 +199,6 @@ body {
     margin-right: 20px;
 }
 
-
 .featured__info-date{
     background: black;
 }
@@ -238,7 +215,6 @@ body {
     height: 180px;
     border-radius: 8px;
 }
-
 
 .featured__info{
     display: flex;
@@ -273,7 +249,6 @@ body {
 }
 
 /*footer*/
-
 .footer{
     display: flex;
     justify-content: center;
@@ -297,23 +272,20 @@ body {
     color: #21243D;
 }
 
-
-
 @media (max-width: 840px) {
     /*section*/
     .section{
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: center;
-        /*flex-direction: column;*/
         padding-top: 20px;
     }
 
     .main__text-content{
         text-align: center;
     }
-    /*post*/
 
+    /*post*/
     .posts{
         background-color: #fff;
     }
@@ -335,6 +307,7 @@ body {
         display: flex;
         justify-content: center;
     }
+
     /*featured*/
     .featured__content {
         display: flex;
