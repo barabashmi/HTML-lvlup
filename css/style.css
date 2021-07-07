@@ -6,9 +6,9 @@
     font-family: 'Heebo', sans-serif;
 }
 
-body {
+/* body {
     background-color: burlywood;
-}
+} */
 
 /*header*/
 .header {
@@ -286,13 +286,21 @@ body {
     }
 
     /*post*/
+
+    .post{
+        width: 100%;
+    }
     .posts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         background-color: #fff;
     }
     .post__content{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin: 0 20px 0 20px;
     }
 
     .link{
@@ -326,5 +334,15 @@ body {
     /*header*/
     .header {
         display: none;
+    }
+
+    .post__wrapper{
+    width: 100%;
+    margin: 0;
+    
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
     }
 }
