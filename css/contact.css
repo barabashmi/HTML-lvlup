@@ -1,0 +1,67 @@
+.contact{
+    padding: 80px 20px 30px;
+}
+
+.contact__title{
+    max-width: 506px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    color: #21243D;
+}
+.contact__info-time{
+    padding-right: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #21243D;
+    border-radius: 16px;
+    background: #21243D;
+    color: aliceblue;
+}
+
+.contact__info{
+    margin: 20px 0  20px 0;
+}
+
+.contact__info-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #21243D;
+    padding-left: 15px;
+}
+
+.contact__discription{
+    max-width: 681px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+.contact__img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.contact__heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D;
+    }
+
+    .contact__sub-heading{  
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #21243D;
+    }
+
+    .contact__heading-disription{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #000000;
+    }
